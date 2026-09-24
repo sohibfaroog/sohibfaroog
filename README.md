@@ -1,16 +1,14 @@
-## Hi there 👋
+# مرحباً، أنا صهيب! 👋
 
-<!--
-**sohibfaroog/sohibfaroog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 👤 عني
+- 👨‍💻 مبرمج مبتدئ أتعلم بايثون
+- 📱 أتعلم البرمجة من جوالي
+- 🎯 هدفي: تعلم البرمجة وصنع برامج مفيدة
 
-Here are some ideas to get you started:
+## ✅ إنجازاتي
+- ✅ كتابة أول برنامج بايثون بنفسي
+- ✅ حساب الجمع: 5 + 3 = 8
+- ✅ نشرت برنامجي على الإنترنت
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📂 مشاريعي
+- 🔗 [أول برنامج لي](https://github.com/sohibfaroog/my-first-program/blob/main/hello.py)
