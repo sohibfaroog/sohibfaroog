@@ -1,3 +1,7 @@
+
+
+https://github.com/user-attachments/assets/f1f2dbba-ea8f-42d4-aa0e-09ba6f316d86
+
 # مرحباً، أنا صهيب فاروق الموزعي! 👋
 
 ![صورة شخصية](https://github.com/user-attachments/assets/47856a0b-06ed-4dbc-9c08-1643b4be7adf)
