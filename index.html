@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Telegram Demo</title>
+<style>
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    margin: 0;
+    background: #f1f5f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container {
+    width: 360px;
+    background: white;
+    padding: 30px 25px;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.12);
+    text-align: center;
+}
+.logo {
+    width: 75px;
+    height: 75px;
+    background: #229ED9;
+    color: white;
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 38px;
+    font-weight: bold;
+}
+h1 {
+    margin-bottom: 8px;
+}
+p {
+    color: #777;
+    line-height: 1.6;
+}
+input {
+    width: 100%;
+    padding: 14px;
+    margin-top: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    font-size: 16px;
+    direction: ltr;
+}
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background: #229ED9;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+}
+button:hover {
+    background: #168ac0;
+}
+.settings {
+    margin-top: 20px;
+    color: #229ED9;
+    cursor: pointer;
+}
+.demo {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #999;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <div class="logo">✈</div>
+    <h1>Telegram Demo</h1>
+    <p>
+        تسجيل دخول تجريبي<br>
+        هذه الواجهة للتعلم فقط
+    </p>
+    <input
+        type="text"
+        id="phone"
+        placeholder="رقم الهاتف التجريبي"
+    >
+    <button onclick="login()">
+        متابعة
+    </button>
+    <div class="settings" onclick="settings()">
+        ⚙️ الإعدادات
+    </div>
+    <div class="demo">
+        DEMO — لا يتم إرسال أو حفظ أي بيانات حقيقية
+    </div>
+</div>
+<script>
+function login() {
+    const phone = document.getElementById("phone").value;
+    if (phone.trim() === "") {
+        alert("اكتب رقمًا تجريبيًا أولاً");
+        return;
+    }
+    alert(
+        "تم الانتقال إلى الخطوة التالية.\n\n" +
+        "هذه نسخة تجريبية ولا يتم إرسال رمز Telegram الحقيقي."
+    );
+}
+function settings() {
+    alert(
+        "الإعدادات التجريبية\n\n" +
+        "• اللغة\n" +
+        "• المظهر\n" +
+        "• الإشعارات\n" +
+        "• معلومات التطبيق"
+    );
+}
+</script>
+</body>
+</html>
